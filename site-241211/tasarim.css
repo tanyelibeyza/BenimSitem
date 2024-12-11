@@ -1,0 +1,75 @@
+/*Genel Biçimledirme*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Head Bölümü*/
+
+body{
+    min-height: 100vh;/*vh view height görünen alanını yüksekligi*/
+    display: flex;
+}
+
+header,footer{
+   padding-top: 12px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+
+#main-menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;/*İcindeki Flex Ögeleri Ortalanır*/
+}
+
+#main-menu a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 10px;
+    
+}
+
+main{
+   display: flex;
+   gap: 20px;
+   border: #ffc845 solid 3px;
+   flex: auto;
+   
+}
+
+#content{
+    background-color: #ffc845;
+    padding: 20px;
+    border: #555 solid 1px;
+    flex: 9;
+}
+
+#content p{
+    margin-bottom: 10px;
+}
+
+aside{
+    background-color: #2badf8;
+    padding: 20px;
+    border: #555 solid 1px;
+    flex: 3;
+
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside a{
+    color: #000;
+}
+
+footer{
+    padding-bottom: 30px;
+}

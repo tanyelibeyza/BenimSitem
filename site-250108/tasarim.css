@@ -1,0 +1,29 @@
+body{
+    background: url(res/arkaplan.jpg);
+    background-size: cover;
+}
+
+header{
+    background: #ffffffff;
+    padding: 20px 0;
+}
+
+header,footer{
+    background: #ffffffff;
+    padding: 20px 0;
+}
+
+#logo{
+    width: 50px;
+}
+
+#main-menu a{
+    color:#007A9C;
+    padding: 1rem;
+    font-size: 1.5rem;
+
+}
+#sosyal-menu a{
+    display: block;
+    padding: 0;
+}
